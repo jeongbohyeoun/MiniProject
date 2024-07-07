@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/api/*"
+  to = "${VITE_API_URL_PROXY}/api/:splat"
+  status = 200
+  force = true
