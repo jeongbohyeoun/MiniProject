@@ -1,0 +1,73 @@
+@mixin room-photo($radius) {
+  width: 272px;
+  height: 238px;
+  border-radius: ($radius);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.room-images-container {
+  width: 1120px;
+  height: 100%;
+  margin: 0 auto;
+
+  .no-underline {
+    text-decoration: none;
+    color: black;
+  }
+
+  .room-title {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 32px 0;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      color: var(--color-gray-5);
+      background-image: url(./assets/leftarrow.svg);
+      margin-right: 13px;
+      cursor: pointer;
+    }
+  }
+  .room-photo-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 8px;
+    column-gap: 8px;
+    margin: 0 auto 24px;
+
+    .room-photo1 {
+      grid-area: span 2 / span 2;
+      width: 560px;
+      height: 483px;
+      border-radius: 12px 0 0 12px;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      object-position: center;
+    }
+    .room-photo2 {
+      grid-area: span 2 / span 2;
+      width: 560px;
+      height: 483px;
+      border-radius: 0 12px 12px 0;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      object-position: center;
+    }
+    .room-photo4 {
+      @include room-photo(0);
+    }
+    .room-photo3 {
+      @include room-photo(0 12px 0 0);
+    }
+    .room-photo5 {
+      @include room-photo(0 0 12px 0);
+    }
+  }
+}

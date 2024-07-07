@@ -1,0 +1,14 @@
+.accommodation-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1296px;
+  height: 100%;
+  margin: 0 auto;
+  gap: 32px;
+}
+
+.loading-box {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 auto;
+}

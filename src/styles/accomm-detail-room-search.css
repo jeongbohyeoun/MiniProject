@@ -1,0 +1,17 @@
+.accommo-select-container {
+  width: 1120px;
+  height: 100%;
+  margin: 48px auto;
+}
+.accommo-select-container .select-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.accommo-select-container .select-room-container {
+  width: 950px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}/*# sourceMappingURL=accomm-detail-room-search.css.map */

@@ -1,0 +1,292 @@
+.layout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.calendar-box {
+  position: absolute;
+  right: 200px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 23rem;
+  margin: 0.03rem 0 0 1.5rem;
+  padding: 0 1rem 2rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid #c7c7c7;
+  background-color: #fff;
+}
+
+.swiper-box {
+  grid-column: 1/2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-swiper-btn,
+.right-swiper-btn {
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  color: #969696;
+}
+
+.month-year-box {
+  grid-column: 3/6;
+  height: 3rem;
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.right-box {
+  grid-column: 6/8;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.week-box {
+  padding: 0.05rem;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  background-color: #fff;
+}
+
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+.day:hover {
+  border-radius: 0.4rem;
+  color: #fff;
+  background-color: #4cd964;
+}
+
+.current-month-day {
+  color: #171717;
+  background-color: white;
+}
+
+.other-month-day {
+  color: #c7c7c7;
+}
+.other-month-day:hover {
+  color: #c7c7c7;
+  background-color: #fff;
+  border: 0.1rem solid #fff;
+}
+
+.layout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.calendar-box {
+  position: absolute;
+  right: 300px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 23rem;
+  margin: 0.03rem 0 0 1.5rem;
+  padding: 0 1rem 2rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid #c7c7c7;
+  background-color: #fff;
+}
+
+.swiper-box {
+  grid-column: 1/2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-swiper-btn,
+.right-swiper-btn {
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  color: #969696;
+}
+
+.month-year-box {
+  grid-column: 3/6;
+  height: 3rem;
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.right-box {
+  grid-column: 6/8;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.week-box {
+  padding: 0.05rem;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  background-color: #fff;
+}
+
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+.day:hover {
+  border-radius: 0.4rem;
+  color: #fff;
+  background-color: #4cd964;
+}
+
+.current-month-day {
+  color: #171717;
+  background-color: white;
+}
+
+.other-month-day {
+  color: #c7c7c7;
+}
+.other-month-day:hover {
+  color: #c7c7c7;
+  background-color: #fff;
+  border: 0.1rem solid #fff;
+}
+
+.option {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  display: flex;
+  border: 1px solid #0f672a;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 13px;
+  width: 370px;
+  height: 312px;
+}
+.option__box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 1.6rem 2rem;
+  border-radius: 0.8rem;
+}
+.option__price {
+  margin-top: 45px;
+}
+.option__content {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-right: 10px;
+}
+.option__info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 22px;
+  margin-top: 21px;
+  font-size: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.option__price__day {
+  text-decoration: underline;
+}
+.option__total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.option__reserve {
+  width: 100%;
+  padding: 14px 0;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #0b4d1f, #0f672a);
+}
+.option__reserve__text {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.option__reserve__notice {
+  margin-top: 5px;
+  color: #5e5e5e;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.paymentform {
+  width: 450px;
+  height: 412px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+.paymentform__sum {
+  width: 100%;
+  height: 100px;
+  padding: 16px 0;
+  margin-top: 10px;
+}
+.paymentform__sum__inner {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.paymentform__img {
+  width: 105px;
+  height: 100px;
+  margin: 0 25px;
+  border-radius: 10px;
+}
+.paymentform__info {
+  flex-grow: 1;
+}
+
+.payment {
+  display: flex;
+  justify-content: center;
+}
+.payment__title {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: 100px;
+  padding: 32px 0;
+}
+.payment__title__text {
+  width: 1120px;
+  height: 36px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.payment__info {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 180px;
+  width: 100%;
+  height: 412px;
+  padding: 0 72.5px;
+}/*# sourceMappingURL=main.css.map */

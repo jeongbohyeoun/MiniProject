@@ -1,0 +1,28 @@
+@import './components/reserveOption';
+@import './components/payment/paymentForm';
+@import './components//payment//paymentInfo';
+@import './components/payment/paymentButton';
+@import './components/payment/successModal';
+@import './components//calendar/CalendarStart';
+@import './components//calendar/CalendarEnd';
+@import './components//calendar/SearchRoomCalendarStart.scss';
+@import './components//calendar/SearchRoomCalendarEnd.scss';
+@import './pages/reserveConfirm';
+@import './pages/payment';
+
+:root {
+  --swiper-navigation-size: 20px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000 !important;
+}
+
+a {
+  text-decoration: none !important;
+}

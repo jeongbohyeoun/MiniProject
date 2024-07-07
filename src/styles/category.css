@@ -1,0 +1,16 @@
+.category-container {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  background-color: var(--color-white);
+  z-index: 1;
+}
+.category-container .category {
+  display: flex;
+  width: 754px;
+  height: 65px;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--color-white);
+}/*# sourceMappingURL=category.css.map */

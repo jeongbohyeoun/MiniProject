@@ -1,0 +1,55 @@
+.room-description-container {
+  display: flex;
+  width: 1120px;
+  height: 100%;
+  margin: 48px auto;
+  justify-content: space-between;
+}
+.room-description-container .description-wrapper {
+  width: 718px;
+  line-height: 24px;
+  margin: 16px 0;
+}
+.room-description-container .description-wrapper .description-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.room-description-container .description-wrapper .max-guest {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--color-gray-5);
+  margin-top: 8px;
+}
+.room-description-container .description-wrapper .max-guest::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(./assets/AiOutlineUser.svg);
+  margin-right: 5px;
+}
+.room-description-container .description-wrapper .room-setting-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 16px;
+  margin: 32px auto;
+  align-items: center;
+}
+.room-description-container .description-wrapper .horizontal-line {
+  height: 1px;
+  border: none;
+  background-color: var(--color-gray-2);
+}
+.room-description-container .description-wrapper .description-textbody {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 16px auto;
+}
+.room-description-container .reservation-wrapper {
+  width: 370px;
+  height: 312px;
+  margin: 16px 0;
+}/*# sourceMappingURL=room-detail-description.css.map */

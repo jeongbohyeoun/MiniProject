@@ -1,0 +1,94 @@
+.searchroomcalendarend {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: var(--color-gray-7);
+
+  &__layout {
+    position: absolute;
+    display: grid;
+    top: 50px;
+    right: 35px;
+    grid-template-columns: repeat(7, 1fr);
+    width: 222px;
+    padding: 0 16px 16px;
+    border-radius: 16px;
+    border: 1px solid var(--color-gray-2);
+    box-shadow: 0px 1px 2px 0px #00000014;
+    background-color: var(--color-white);
+    z-index: 9999;
+  }
+
+  &__swiper {
+    grid-column: 6 / 8;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+
+    &__left {
+      grid-column: 6 / 7;
+      padding: 0 0.5rem;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      background-color: var(--color-white);
+    }
+
+    &__right {
+      grid-column: 7 / 8;
+      padding: 0 0.5rem;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      background-color: var(--color-white);
+    }
+  }
+
+  &__monthYear {
+    grid-column: 1 / 6;
+    width: 101px;
+    height: 21px;
+    margin: 20px 0 10px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  &__weekBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    color: var(--color-gray-5);
+    background-color: var(--color-white);
+  }
+}
+
+.CurrentMonthDay,
+.OtherMonthDay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.CurrentMonthDay {
+  color: var(--color-black);
+  background-color: white;
+  border: 1px solid var(--color-white);
+  border-radius: 50%;
+
+  &:hover {
+    border-radius: 50%;
+    border: 1px solid var(--color-green-2);
+    background-color: var(--color-green-1);
+  }
+}
+
+.OtherMonthDay {
+  color: var(--color-white);
+}

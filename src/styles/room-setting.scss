@@ -1,0 +1,19 @@
+.room-setting-container {
+  display: flex;
+
+  .type-icon {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    align-items: center;
+  }
+  .type-text {
+    margin-left: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}

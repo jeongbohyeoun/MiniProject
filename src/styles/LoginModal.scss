@@ -1,0 +1,132 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+  max-width: 400px;
+  min-height: 500px;
+  height: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 32px;
+  position: relative;
+
+  img {
+    height: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .password-input-container {
+    position: relative;
+  }
+
+  .toggle-password {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  input {
+    width: -webkit-fill-available;
+    height: 45px;
+    padding: 0 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    &:focus-visible {
+      border-color: var(--color-green-2);
+      outline: none;
+    }
+
+    &:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0px 1000px var(--color-green-1) inset;
+      box-shadow: 0 0 0px 1000px var(--color-green-1) inset;
+    }
+
+    &:-moz-autofill {
+      -moz-box-shadow: 0 0 0px 1000px var(--color-green-1) inset;
+      box-shadow: 0 0 0px 1000px var(--color-green-1) inset;
+    }
+
+    &:-ms-autofill {
+      -ms-box-shadow: 0 0 0px 1000px var(--color-green-1) inset;
+      box-shadow: 0 0 0px 1000px var(--color-green-1) inset;
+    }
+
+    &:-o-autofill {
+      -o-box-shadow: 0 0 0px 1000px var(--color-green-1) inset;
+      box-shadow: 0 0 0px 1000px var(--color-green-1) inset;
+    }
+
+    &:autofill {
+      box-shadow: 0 0 0px 1000px var(--color-green-1) inset;
+    }
+  }
+
+  .login-actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+    span {
+      color: #222;
+    }
+  }
+
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    font-size: 14px;
+
+    span {
+      color: #0f672a;
+      cursor: pointer;
+    }
+
+    button {
+      width: 110px;
+      height: 45px;
+      padding: 8px 20px;
+      font-size: 16px;
+      background-color: #222;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+  }
+}
