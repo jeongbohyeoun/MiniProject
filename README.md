@@ -17,20 +17,6 @@ pw: Abcd1234\*
 
 <hr>
 
-## 미니 프로젝트 4조 프론트엔드 소개
-
-<strong>김희용</strong> (https://github.com/scripto1)<br>
-개발 환경 설정 및 배포, 전체 상품(카테고리 분류), 개별 상품, 객실 페이지
-<br><br>
-<strong>정보현</strong> (https://github.com/jeongbohyeoun)<br>
-전체 상품 검색, 개별 상품 검색, 결제 페이지, 결제 내역 확인
-<br><br>
-<strong>호프니콜라</strong> (https://github.com/nicola-laura)<br>
-회원 가입 및 로그인 기능, 헤더 컴포넌트, UI 디자인
-<br><br>
-
-<hr>
-
 ## 기술 스택
 
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"><img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/><br>
@@ -46,7 +32,7 @@ pw: Abcd1234\*
 
 ## 각 페이지 설명
 
-### A. 개발 환경 설정 및 배포, 전체 상품(카테고리 분류), 개별 상품, 객실 페이지 (김희용)
+### A. 개발 환경 설정 및 배포, 전체 상품(카테고리 분류), 개별 상품, 객실 페이지 
 
 ### 구현 내용
 
@@ -76,7 +62,7 @@ pw: Abcd1234\*
 
 <hr>
 
-### B. 메인화면 검색 기능, 상품 개별화면 검색 기능, 결제 및 결제내역 확인 기능 (정보현)
+### B. 메인화면 검색 기능, 상품 개별화면 검색 기능, 결제 및 결제내역 확인 기능 
 
 ### 구현 내용
 
@@ -114,7 +100,7 @@ pw: Abcd1234\*
 
 <hr>
 
-### C. 회원 가입 및 로그인 기능, 헤더 컴포넌트, UI 디자인 (호프니콜라)
+### C. 회원 가입 및 로그인 기능, 헤더 컴포넌트, UI 디자인 
 
 ### 구현 내용
 
